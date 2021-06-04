@@ -1,0 +1,212 @@
+\hypertarget{classStudent}{}\section{Student Class Reference}
+\label{classStudent}\index{Student@{Student}}
+
+
+\hyperlink{classStudent}{Student} class, four methods et two atts.  
+
+
+
+
+{\ttfamily \#include $<$student.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classStudent_ababb9f66a55e7ad87a5c5a6be6dda069}{Student} (std\+::string \hyperlink{classStudent_a1d89c28bd42ba9a52da008bb69367171}{name}, bool \hyperlink{classStudent_a110ce4aee2c3c5912933d8e8aa70cc1e}{present}=true)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classStudent_a1d89c28bd42ba9a52da008bb69367171}{name} () const
+\begin{DoxyCompactList}\small\item\em Get students\textquotesingle{} names. \end{DoxyCompactList}\item 
+void \hyperlink{classStudent_a9d3a2685df23b5e7cbf59c19c4a1f9b5}{set\+Name} (const std\+::string \&\hyperlink{classStudent_a1d89c28bd42ba9a52da008bb69367171}{name})
+\begin{DoxyCompactList}\small\item\em Set student\textquotesingle{}s name. \end{DoxyCompactList}\item 
+bool \hyperlink{classStudent_a110ce4aee2c3c5912933d8e8aa70cc1e}{present} () const
+\begin{DoxyCompactList}\small\item\em Get the presentation status of a student. \end{DoxyCompactList}\item 
+void \hyperlink{classStudent_a4b5a0a2d5e64a49f91f50c790ae3147a}{set\+Present} (bool \hyperlink{classStudent_a110ce4aee2c3c5912933d8e8aa70cc1e}{present})
+\begin{DoxyCompactList}\small\item\em Set the presentation status of a student. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classStudent_acd848ed8bb05466e6d96bd387a8326c2}{print} () const
+\begin{DoxyCompactList}\small\item\em Print students\textquotesingle{} info. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classStudent_ac8e5bc83d3632e30a849bf0163350d7b}{nb\+\_\+presents} (const std\+::vector$<$ \hyperlink{classStudent}{Student} $>$ \&students)
+\begin{DoxyCompactList}\small\item\em Get the number of students who present. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classStudent_adb41893ba19e889e56c559f25fc1a68a}{m\+\_\+name}
+\item 
+bool \hyperlink{classStudent_a2614877b81d48e893c3ecd519278bbd7}{m\+\_\+present} = true
+\begin{DoxyCompactList}\small\item\em student\textquotesingle{}s name \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classStudent}{Student} class, four methods et two atts. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStudent_ababb9f66a55e7ad87a5c5a6be6dda069}\label{classStudent_ababb9f66a55e7ad87a5c5a6be6dda069}} 
+\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\subsubsection{\texorpdfstring{Student()}{Student()}}
+{\footnotesize\ttfamily \hyperlink{classStudent}{Student} (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{bool}]{present = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & (string) \\
+\hline
+{\em present,default} & true (bool) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classStudent_a1d89c28bd42ba9a52da008bb69367171}\label{classStudent_a1d89c28bd42ba9a52da008bb69367171}} 
+\index{Student@{Student}!name@{name}}
+\index{name@{name}!Student@{Student}}
+\subsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily std\+::string name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get students\textquotesingle{} names. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classStudent_a1d89c28bd42ba9a52da008bb69367171_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_ac8e5bc83d3632e30a849bf0163350d7b}\label{classStudent_ac8e5bc83d3632e30a849bf0163350d7b}} 
+\index{Student@{Student}!nb\+\_\+presents@{nb\+\_\+presents}}
+\index{nb\+\_\+presents@{nb\+\_\+presents}!Student@{Student}}
+\subsubsection{\texorpdfstring{nb\+\_\+presents()}{nb\_presents()}}
+{\footnotesize\ttfamily int nb\+\_\+presents (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \hyperlink{classStudent}{Student} $>$ \&}]{students }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get the number of students who present. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em students} & (vector) \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classStudent_ac8e5bc83d3632e30a849bf0163350d7b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_a110ce4aee2c3c5912933d8e8aa70cc1e}\label{classStudent_a110ce4aee2c3c5912933d8e8aa70cc1e}} 
+\index{Student@{Student}!present@{present}}
+\index{present@{present}!Student@{Student}}
+\subsubsection{\texorpdfstring{present()}{present()}}
+{\footnotesize\ttfamily bool present (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the presentation status of a student. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classStudent_a110ce4aee2c3c5912933d8e8aa70cc1e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_acd848ed8bb05466e6d96bd387a8326c2}\label{classStudent_acd848ed8bb05466e6d96bd387a8326c2}} 
+\index{Student@{Student}!print@{print}}
+\index{print@{print}!Student@{Student}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily std\+::string print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Print students\textquotesingle{} info. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classStudent_acd848ed8bb05466e6d96bd387a8326c2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_a9d3a2685df23b5e7cbf59c19c4a1f9b5}\label{classStudent_a9d3a2685df23b5e7cbf59c19c4a1f9b5}} 
+\index{Student@{Student}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!Student@{Student}}
+\subsubsection{\texorpdfstring{set\+Name()}{setName()}}
+{\footnotesize\ttfamily void set\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Set student\textquotesingle{}s name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & (string) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classStudent_a9d3a2685df23b5e7cbf59c19c4a1f9b5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_a4b5a0a2d5e64a49f91f50c790ae3147a}\label{classStudent_a4b5a0a2d5e64a49f91f50c790ae3147a}} 
+\index{Student@{Student}!set\+Present@{set\+Present}}
+\index{set\+Present@{set\+Present}!Student@{Student}}
+\subsubsection{\texorpdfstring{set\+Present()}{setPresent()}}
+{\footnotesize\ttfamily void set\+Present (\begin{DoxyParamCaption}\item[{bool}]{present }\end{DoxyParamCaption})}
+
+
+
+Set the presentation status of a student. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em present} & (bool) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{classStudent_a4b5a0a2d5e64a49f91f50c790ae3147a_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classStudent_adb41893ba19e889e56c559f25fc1a68a}\label{classStudent_adb41893ba19e889e56c559f25fc1a68a}} 
+\index{Student@{Student}!m\+\_\+name@{m\+\_\+name}}
+\index{m\+\_\+name@{m\+\_\+name}!Student@{Student}}
+\subsubsection{\texorpdfstring{m\+\_\+name}{m\_name}}
+{\footnotesize\ttfamily std\+::string m\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classStudent_a2614877b81d48e893c3ecd519278bbd7}\label{classStudent_a2614877b81d48e893c3ecd519278bbd7}} 
+\index{Student@{Student}!m\+\_\+present@{m\+\_\+present}}
+\index{m\+\_\+present@{m\+\_\+present}!Student@{Student}}
+\subsubsection{\texorpdfstring{m\+\_\+present}{m\_present}}
+{\footnotesize\ttfamily bool m\+\_\+present = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+student\textquotesingle{}s name 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{student_8h}{student.\+h}\item 
+\hyperlink{student_8cpp}{student.\+cpp}\end{DoxyCompactItemize}
